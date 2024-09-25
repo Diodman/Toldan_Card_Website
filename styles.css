@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #222831; /* Тёмный серый фон */
+    color: #ececec;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #393e46; /* Тёмно-серый */
+    border-bottom: 1px solid #00adb5; /* Акцентный бирюзовый цвет */
+}
+
+.logo img {
+    height: 50px; /* Высота логотипа */
+}
+
+.logo h1 {
+    color: #00adb5; /* Бирюзовый */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ececec;
+}
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+#hero {
+    background: linear-gradient(135deg, #232931, #393e46); /* Более нейтральные темные оттенки */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    color: #00adb5; /* Бирюзовый для акцентов */
+}
+
+.hero-content p {
+    margin-bottom: 20px; /* Добавляет отступ перед кнопкой */
+}
+
+.cta-button {
+    margin-top: 20px; /* Отступ сверху у кнопки */
+    background: #3e8e41; /* Тёмно-зелёный */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background: #2e6e31; /* Более тёмный оттенок зелёного */
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #00adb5; /* Бирюзовый для акцентов */
+}
+
+#about,
+#join {
+    background: #393e46; /* Тёмный фон секций */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#join ul {
+    list-style: none;
+    padding: 0;
+}
+
+#join ul li {
+    background: #3a3d3f; /* Темно-серый для списков */
+    border: 1px solid #00adb5;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section#form {
+    background: #393e46; /* Тёмный фон для формы */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section#form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+section#form input,
+section#form textarea {
+    width: calc(100% - 20px); /* Ширина с учётом отступов */
+    padding: 10px;
+    border: 1px solid #00adb5;
+    border-radius: 5px;
+    background: #3a3d3f; /* Фон для полей ввода */
+    color: #ececec;
+}
+
+section#form button {
+    margin-top: 10px;
+    background: #00adb5; /* Бирюзовый для кнопки */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section#form button:hover {
+    background: #008c8c; /* Темнее бирюзовый при наведении */
+}
+
+footer {
+    background: #393e46;
+    color: #ececec;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #00adb5; /* Бирюзовый для ссылок в подвале */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    margin-top: 20px;
+}
